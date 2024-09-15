@@ -1,0 +1,48 @@
+/* To see flex outlines clearly activate this line */
+*{
+    outline: 2px solid red;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+/* Temporary Image properties for better inital clarity */
+img{
+    height: 180px;
+    width: auto;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+    
+}
+
+.sec1,
+.sec2,
+.sec3,
+.sec4,
+footer{
+    display: flex;
+}
+
+.sec1{
+    flex-direction:column;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec1-content{
+    display: flex;
+}
