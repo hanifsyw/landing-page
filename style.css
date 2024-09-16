@@ -1,15 +1,19 @@
 /* To see flex outlines clearly activate this line */
-*{
+/* *{
     outline: 2px solid red;
-}
+} */
+
 body{
     display: flex;
     flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 /* Temporary Image properties for better inital clarity */
 img{
     height: 180px;
     width: auto;
+    border-radius:8%;
 }
 
 ul{
@@ -17,6 +21,7 @@ ul{
     display: flex;
     margin: 0;
     padding: 0;
+    gap: 12px;
 }
 
 a{
@@ -35,7 +40,7 @@ footer{
 
 .sec1{
     flex-direction:column;
-
+    gap: 12px;
 }
 
 .header{
@@ -45,4 +50,86 @@ footer{
 
 .sec1-content{
     display: flex;
+    justify-content: space-between;
+}
+
+.sec1-left{
+    flex-direction:column;
+    gap: 12px;
+}
+
+.mainimg{
+
+}
+
+.sec2{
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec2-head{
+
+}
+
+.sec2-pics{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.images{
+    
+}
+
+.subtext{
+
+}
+
+.sec3{
+    flex-direction: column;
+
+}
+
+.quote{
+
+}
+
+.quoteby{
+    align-self: end;
+}
+
+.sec4{
+    justify-content: space-between;
+}
+
+.sec4-left{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.callact{
+
+}
+
+.signmore{
+
+}
+
+.signup{
+
+}
+
+#spc{
+
+}
+
+.footer{
+    text-align: center;
 }
